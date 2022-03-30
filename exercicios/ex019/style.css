@@ -1,0 +1,38 @@
+    @charset "UTF-8";
+    /* em HTML é id = em CSS é #(só pode um elemento)
+    em HTML é class = em CSS é  .(pode em vários elementos)*/
+    
+    body {
+        background-image: linear-gradient(to right, lightblue, lightgreen);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+        color: rgb(4, 109, 0);
+    }
+    
+    h1#principal {
+        text-align: center;
+        background-color: rgba(11, 41, 11, 0.87);
+        color: white;
+    }
+    
+    .basico {
+        color: #2f922f;
+    }
+    
+    .intermediario {
+        color: #c3c30dd3;
+    }
+    
+    .avancado {
+        color: #ac0b0bd2;
+    }
+    
+    h2 {
+        color: rgb(51, 77, 49);
+    }
+    
+    .destaque {
+        background-color: rgba(155, 165, 12, 0.109)
+    }
